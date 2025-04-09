@@ -3,12 +3,10 @@ spring:
     name: user-service
   data:
     mongodb:
-<<<<<<< HEAD
+
       # use this while running using docker compose
       #uri: mongodb://mongodb:27017/userdb
       # use this while running locally
-=======
->>>>>>> 03747c0ae9375dfcdf6de240e7dc021ce6901d4d
       uri: mongodb://localhost:27017/userdb
 
 server:
@@ -25,10 +23,8 @@ server:
 eureka:
   client:
     service-url:
-<<<<<<< HEAD
       defaultZone: http://localhost:8761/eureka/
   instance:
     prefer-ip-address: true
-=======
-      defaultZone: http://localhost:8761/eureka/
->>>>>>> 03747c0ae9375dfcdf6de240e7dc021ce6901d4d
+
+
