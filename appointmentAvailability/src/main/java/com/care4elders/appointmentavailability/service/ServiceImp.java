@@ -1,11 +1,17 @@
 package com.care4elders.appointmentavailability.service;
 
+<<<<<<< HEAD
 import com.care4elders.appointmentavailability.dto.UserDTO;
+=======
+>>>>>>> 03747c0ae9375dfcdf6de240e7dc021ce6901d4d
 import com.care4elders.appointmentavailability.entity.Reservation;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import com.care4elders.appointmentavailability.repository.IReservationRepository;
+<<<<<<< HEAD
 import org.springframework.web.client.RestTemplate;
+=======
+>>>>>>> 03747c0ae9375dfcdf6de240e7dc021ce6901d4d
 
 import java.util.List;
 import java.util.Optional;

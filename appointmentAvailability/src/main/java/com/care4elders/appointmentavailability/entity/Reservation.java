@@ -21,9 +21,9 @@ public class Reservation {
     private String userId;
 
 
+    private String soignantId;     // ID of the caregiver (user with role "soignant")
+    private String normalUserId;   // ID of the normal user (patient)
 
-    public enum StatutReservation {
-        PLANIFIEE, CONFIRMEE, ANNULEE, TERMINEE
-    }
+
 
 }

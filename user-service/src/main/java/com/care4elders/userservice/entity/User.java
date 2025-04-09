@@ -17,5 +17,10 @@ public class User {
     private String lastName;
     private String email;
     private String password;
+<<<<<<< HEAD
 
+=======
+    public String phoneNumber;
+    private Role role;
+>>>>>>> 03747c0ae9375dfcdf6de240e7dc021ce6901d4d
 }
