@@ -1,4 +1,4 @@
-package entity;
+package com.care4elders.appointmentavailability.entity;
 
 
 import lombok.Data;
@@ -11,7 +11,7 @@ import java.time.LocalTime;
 public class Reservation {
     @Id
    // @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private String id;
 
     private LocalDate date;
     private LocalTime heure;
@@ -20,9 +20,9 @@ public class Reservation {
     private StatutReservation statut;
 
 
+    private String soignantId;     // ID of the caregiver (user with role "soignant")
+    private String normalUserId;   // ID of the normal user (patient)
 
-    public enum StatutReservation {
-        PLANIFIEE, CONFIRMEE, ANNULEE, TERMINEE
-    }
+
 
 }

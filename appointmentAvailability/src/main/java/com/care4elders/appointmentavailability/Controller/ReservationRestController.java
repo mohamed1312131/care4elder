@@ -1,9 +1,9 @@
-package Controller;
+package com.care4elders.appointmentavailability.Controller;
 
-import entity.Reservation;
+import com.care4elders.appointmentavailability.entity.Reservation;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-import service.IService;
+import com.care4elders.appointmentavailability.service.IService;
 
 import java.util.List;
 import java.util.Optional;
