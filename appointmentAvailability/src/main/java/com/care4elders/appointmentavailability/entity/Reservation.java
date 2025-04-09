@@ -1,4 +1,4 @@
-package entity;
+package com.care4elders.appointmentavailability.entity;
 
 
 import lombok.Data;

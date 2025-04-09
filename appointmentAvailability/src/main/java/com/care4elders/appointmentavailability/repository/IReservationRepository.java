@@ -1,6 +1,6 @@
-package repository;
+package com.care4elders.appointmentavailability.repository;
 
-import entity.Reservation;
+import com.care4elders.appointmentavailability.entity.Reservation;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

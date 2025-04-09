@@ -1,9 +1,9 @@
-package service;
+package com.care4elders.appointmentavailability.service;
 
-import entity.Reservation;
+import com.care4elders.appointmentavailability.entity.Reservation;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
-import repository.IReservationRepository;
+import com.care4elders.appointmentavailability.repository.IReservationRepository;
 
 import java.util.List;
 import java.util.Optional;

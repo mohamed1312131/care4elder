@@ -1,6 +1,6 @@
-package service;
+package com.care4elders.appointmentavailability.service;
 
-import entity.Reservation;
+import com.care4elders.appointmentavailability.entity.Reservation;
 
 import java.util.List;
 import java.util.Optional;

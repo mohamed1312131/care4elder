@@ -5,7 +5,7 @@ spring:
   application:
     name: appointmentAvailability
   data:
-    uri: mongodb://localhost:27017/userdb
+    uri: mongodb://localhost:27017/appt
 
 # user this while running docker-composee
 #eureka:
