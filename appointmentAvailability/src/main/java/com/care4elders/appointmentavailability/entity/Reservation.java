@@ -11,13 +11,14 @@ import java.time.LocalTime;
 public class Reservation {
     @Id
    // @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private String id;
 
     private LocalDate date;
     private LocalTime heure;
 
     // @Enumerated(EnumType.STRING)
     private StatutReservation statut;
+    private String userId;
 
 
 

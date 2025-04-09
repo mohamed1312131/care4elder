@@ -4,6 +4,7 @@ import com.care4elders.userservice.UserService;
 import com.care4elders.userservice.entity.User;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -22,8 +23,11 @@ public class UserController {
     }
 
     @GetMapping("/{id}")
-    public Optional<User> getUserById(@PathVariable String id) {
-        return userService.getUserById(id);
+    public ResponseEntity<User> getUserById(@PathVariable String id) {
+        Optional<User> userOptional = userService.getUserById(id);
+        return userOptional
+                .map(user -> ResponseEntity.ok(user)) // If found, return 200 OK with user body
+                .orElseGet(() -> ResponseEntity.notFound().build()); // If not found, return 404 Not Found
     }
 
     @GetMapping
