@@ -18,6 +18,7 @@ public class Reservation {
 
     // @Enumerated(EnumType.STRING)
     private StatutReservation statut;
+    private String userId;
 
 
     private String soignantId;     // ID of the caregiver (user with role "soignant")

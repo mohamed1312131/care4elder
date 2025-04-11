@@ -10,6 +10,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+
 public class User {
     @Id
     private String id;
@@ -17,6 +18,8 @@ public class User {
     private String lastName;
     private String email;
     private String password;
+
     public String phoneNumber;
     private Role role;
+
 }
