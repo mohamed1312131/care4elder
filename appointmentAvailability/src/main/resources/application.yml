@@ -5,13 +5,13 @@ spring:
   application:
     name: appointmentAvailability
   data:
-    uri: mongodb://localhost:27017/userdb
+    uri: mongodb://localhost:27017/test
 
-# user this while running docker-composee
-#eureka:
-#  client:
-#    service-url:
-#      defaultZone: http://service-registry:8761/eureka/
+  # user this while running docker-composee
+  #eureka:
+  #  client:
+  #    service-url:
+  #      defaultZone: http://service-registry:8761/eureka/
 
 # use this while running with locally
 eureka:

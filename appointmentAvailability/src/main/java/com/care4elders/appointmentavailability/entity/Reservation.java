@@ -10,7 +10,7 @@ import java.time.LocalTime;
 
 public class Reservation {
     @Id
-   // @GeneratedValue(strategy = GenerationType.IDENTITY)
+    //@GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;
 
     private LocalDate date;
